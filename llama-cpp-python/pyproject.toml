@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llama-cpp-docker"
+version = "0.1.0"
+description = ""
+authors = ["James Villarrubia <james.villarrubia@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+argparse = "^1.4.0"
+llama-cpp-python = "^0.2.27"
+uvicorn = "^0.25.0"
+anyio = "^4.2.0"
+fastapi = "^0.108.0"
+sse-starlette = "^1.8.2"
+starlette-context = "^0.3.6"
+pydantic-settings = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
